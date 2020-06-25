@@ -1,0 +1,25 @@
+yum install java-1.8*
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+
+
+In .Bash_profile 
+
+insert 
+
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+PATH=$PATH:$JAVA_HOME:$HOME/bin
+
+
+
+wget -O  /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+
+yum install jenkins -y
+start the jenkins service
+
+service jenkins start
+
+
+
+
+

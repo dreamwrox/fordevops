@@ -1,0 +1,8 @@
+git config --global user.name "harjit Singh Pahwa"
+git config --global user.email "harjeet.pahwa@gmail.com"
+git clone "https://github.com/yankils/task.git"
+git log
+git status
+git add "filename" / git add . 
+git commit -m "commit info"
+git push origin branch
