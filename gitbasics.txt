@@ -1,7 +1,8 @@
 git config --global user.name "harjit Singh Pahwa"
 git config --global user.email "harjeet.pahwa@gmail.com"
 git clone "https://github.com/yankils/task.git"
-git checkout -b newbranch
+git checkout -b newbranch--new branch creation 
+git log -p filename -----to see changes in file
 git log
 git status
 git add "filename" / git add . 
