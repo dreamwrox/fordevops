@@ -18,6 +18,7 @@ yum install jenkins -y
 start the jenkins service
 
 service jenkins start
+--------------------
 
 
 
