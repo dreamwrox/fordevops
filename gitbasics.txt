@@ -7,3 +7,4 @@ git add "filename" / git add .
 git commit -m "commit info"
 git push origin branch
 -----
+*********
